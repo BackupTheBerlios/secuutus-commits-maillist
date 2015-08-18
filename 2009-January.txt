@@ -1,0 +1,881 @@
+From jfvd at users.berlios.de  Thu Jan 22 05:05:14 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 05:05:14 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. e97847b970953961bce1bbaa030b582e70509cc6
+Message-ID: <200901220405.n0M45Evb003984@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  e97847b970953961bce1bbaa030b582e70509cc6 (commit)
+      from  112a151f82d545fa5afef5b152716cb7a5843656 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit e97847b970953961bce1bbaa030b582e70509cc6
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 03:44:58 2009 +0000
+
+    Testing post-receive hook.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ T |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 T
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 05:06:45 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 05:06:45 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 6af82769812ba9d2a8da406b6a77bc5a81e11782
+Message-ID: <200901220406.n0M46jld004072@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  6af82769812ba9d2a8da406b6a77bc5a81e11782 (commit)
+      from  e97847b970953961bce1bbaa030b582e70509cc6 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 6af82769812ba9d2a8da406b6a77bc5a81e11782
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 03:46:33 2009 +0000
+
+    Delete.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ T |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+ delete mode 100644 T
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 08:52:35 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 08:52:35 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. e729c00c963d9c822a1ccc9f022df81d9dc1c98a
+Message-ID: <200901220752.n0M7qZUr001545@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  e729c00c963d9c822a1ccc9f022df81d9dc1c98a (commit)
+       via  ba31197930d39c52958fa9cd59224463dc53c3c2 (commit)
+       via  ca765896eaf1cdc40c76b38dc37c0064e5aefb72 (commit)
+      from  6af82769812ba9d2a8da406b6a77bc5a81e11782 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit e729c00c963d9c822a1ccc9f022df81d9dc1c98a
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 05:54:32 2009 +0000
+
+    Update.
+
+commit ba31197930d39c52958fa9cd59224463dc53c3c2
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 05:52:46 2009 +0000
+
+    Update.
+
+commit ca765896eaf1cdc40c76b38dc37c0064e5aefb72
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 04:00:47 2009 +0000
+
+    Call init_term() before init_curses().
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ configure.ac |    4 +-
+ default.conf |    9 ++-
+ src/Makefile |    2 +-
+ src/list.c   |  264 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/list.h   |   87 +++++++++++++++++++
+ src/main.c   |  190 +++++++++++++++++++++++++++++++++++++++++-
+ 6 files changed, 549 insertions(+), 7 deletions(-)
+ create mode 100644 src/list.c
+ create mode 100644 src/list.h
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 09:07:02 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 09:07:02 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 56964d7f97b60346f808b21d9bf8c2b4d9545eec
+Message-ID: <200901220807.n0M872if010259@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  56964d7f97b60346f808b21d9bf8c2b4d9545eec (commit)
+      from  e729c00c963d9c822a1ccc9f022df81d9dc1c98a (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 56964d7f97b60346f808b21d9bf8c2b4d9545eec
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 06:09:05 2009 +0000
+
+    Move config clean-up code into new function destroy_config().
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/main.c |   50 +++++++++++++++++++++++++++++---------------------
+ 1 files changed, 29 insertions(+), 21 deletions(-)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 12:28:44 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 12:28:44 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 5cc81be21b24af6231823ecc0c8bf9ea7a0e2c16
+Message-ID: <200901221128.n0MBSiBO015093@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  5cc81be21b24af6231823ecc0c8bf9ea7a0e2c16 (commit)
+       via  344271926676796f8657ead5563d314f16512f57 (commit)
+       via  8be154c8ece3afa3ea236b6b67da76fcd48bd831 (commit)
+       via  acb408d00fb00cfe519237a820dc2cbfd269dcaa (commit)
+      from  56964d7f97b60346f808b21d9bf8c2b4d9545eec (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 5cc81be21b24af6231823ecc0c8bf9ea7a0e2c16
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 08:33:11 2009 +0000
+
+    Add check for memset().
+
+commit 344271926676796f8657ead5563d314f16512f57
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 08:32:30 2009 +0000
+
+    Move out UI-specific code into ui.{c,h}.
+
+commit 8be154c8ece3afa3ea236b6b67da76fcd48bd831
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 08:04:01 2009 +0000
+
+    Move configuration code out into secuutus-config.{c,h}.
+
+commit acb408d00fb00cfe519237a820dc2cbfd269dcaa
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 06:26:11 2009 +0000
+
+    Have "make distclean" delete config.cache and config.status.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ Makefile              |   12 +-
+ configure.ac          |    2 +-
+ src/Makefile          |    2 +-
+ src/main.c            |  453 +++++++------------------------------------------
+ src/secuutus-config.c |  179 +++++++++++++++++++
+ src/secuutus-config.h |   86 ++++++++++
+ src/ui.c              |  170 ++++++++++++++++++
+ src/{mm.h => ui.h}    |   30 +++-
+ 8 files changed, 533 insertions(+), 401 deletions(-)
+ create mode 100644 src/secuutus-config.c
+ create mode 100644 src/secuutus-config.h
+ create mode 100644 src/ui.c
+ copy src/{mm.h => ui.h} (58%)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 14:51:30 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 14:51:30 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. d2885601423d051dc09951b4639b6082d38d2402
+Message-ID: <200901221351.n0MDpUh9017422@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  d2885601423d051dc09951b4639b6082d38d2402 (commit)
+       via  b58a124e4a5c2d3c148a20d41f95e6a96fa5be85 (commit)
+       via  3a197fc7d50bc31a3cc09ffaa829e74c1576b151 (commit)
+       via  879ec228bbdf51143da09c96f8dfe18853746db2 (commit)
+       via  2c73d9ae9a68d045f7dda07594714a45d1d9af46 (commit)
+       via  2c2e9bfd0aa2319131d20aa907d2aa895484573e (commit)
+       via  08e3e0d25e9321d5929be10b173f5a4d63f5443d (commit)
+       via  e160d9879f042ad06e08db0d845fbe4e93ea3d14 (commit)
+       via  953db9775e016dfd357fe7230ec98b400076b744 (commit)
+       via  7a0ea1aee09414fa6f544ff32b4b61b18700c33a (commit)
+      from  5cc81be21b24af6231823ecc0c8bf9ea7a0e2c16 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit d2885601423d051dc09951b4639b6082d38d2402
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 13:51:22 2009 +0000
+
+    Implement ui_report_error().
+
+commit b58a124e4a5c2d3c148a20d41f95e6a96fa5be85
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 13:27:14 2009 +0000
+
+    Relic.
+
+commit 3a197fc7d50bc31a3cc09ffaa829e74c1576b151
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 13:05:41 2009 +0000
+
+    Changes missing from last commit...
+
+commit 879ec228bbdf51143da09c96f8dfe18853746db2
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:57:51 2009 +0000
+
+    Move error reporting code out into error-reporting.c.
+
+commit 2c73d9ae9a68d045f7dda07594714a45d1d9af46
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:28:31 2009 +0000
+
+    Cosmetic.
+
+commit 2c2e9bfd0aa2319131d20aa907d2aa895484573e
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:25:02 2009 +0000
+
+    Add.
+
+commit 08e3e0d25e9321d5929be10b173f5a4d63f5443d
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:17:43 2009 +0000
+
+    Cosmetic.
+
+commit e160d9879f042ad06e08db0d845fbe4e93ea3d14
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:14:22 2009 +0000
+
+    Remove unneeded includes.
+
+commit 953db9775e016dfd357fe7230ec98b400076b744
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:09:50 2009 +0000
+
+    Move more code into ui.c.
+
+commit 7a0ea1aee09414fa6f544ff32b4b61b18700c33a
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 12:03:45 2009 +0000
+
+    Move get_line() to ui.c and rename to ui_read_line().
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ Makefile.top.in       |    2 +-
+ src/Makefile          |    8 ++-
+ src/STATUS            |    3 +
+ src/error-reporting.c |   96 +++++++++++++++++++
+ src/error-reporting.h |   75 +++++++++++++++
+ src/main.c            |  242 ++++++++++---------------------------------------
+ src/ui.c              |  163 ++++++++++++++++++++++++++++++---
+ src/ui.h              |   21 +++--
+ 8 files changed, 391 insertions(+), 219 deletions(-)
+ create mode 100644 src/STATUS
+ create mode 100644 src/error-reporting.c
+ create mode 100644 src/error-reporting.h
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 15:07:55 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 15:07:55 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 98cc1a619feda6a216e7ab3843a7363a39f12a7c
+Message-ID: <200901221407.n0ME7tgt018686@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  98cc1a619feda6a216e7ab3843a7363a39f12a7c (commit)
+       via  62dda2fc4083d5d36b5c2f5a9b68e7d205eb7088 (commit)
+       via  1b3282a5f80e01f6a09720daca7055d712a4e923 (commit)
+       via  f48e9600a344e05e986028f4259a196432c527d3 (commit)
+       via  17cc09c10ebe903ca161b1a09c54f865672eb293 (commit)
+      from  d2885601423d051dc09951b4639b6082d38d2402 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 98cc1a619feda6a216e7ab3843a7363a39f12a7c
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 14:07:14 2009 +0000
+
+    Move.
+
+commit 62dda2fc4083d5d36b5c2f5a9b68e7d205eb7088
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 14:06:36 2009 +0000
+
+    Revert silly commit 1b3282a5f80e01f6a09720daca7055d712a4e923.
+
+commit 1b3282a5f80e01f6a09720daca7055d712a4e923
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 14:03:59 2009 +0000
+
+    Move.
+
+commit f48e9600a344e05e986028f4259a196432c527d3
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 14:02:54 2009 +0000
+
+    Add missing attroff() call.
+
+commit 17cc09c10ebe903ca161b1a09c54f865672eb293
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 14:02:15 2009 +0000
+
+    Rename "ui_read_line()" to "ui_input_line_read()".
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/STATUS => STATUS |    0
+ src/ui.c             |    7 ++++---
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+ rename src/STATUS => STATUS (100%)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 16:04:49 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 16:04:49 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. ab4ca070c0befd9695d3f0c92d8716ff1c9111bf
+Message-ID: <200901221504.n0MF4nDh023694@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  ab4ca070c0befd9695d3f0c92d8716ff1c9111bf (commit)
+      from  98cc1a619feda6a216e7ab3843a7363a39f12a7c (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit ab4ca070c0befd9695d3f0c92d8716ff1c9111bf
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 15:03:47 2009 +0000
+
+    Check for "asprintf()".
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ configure.ac |   16 +++++++++-------
+ 1 files changed, 9 insertions(+), 7 deletions(-)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 16:20:23 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 16:20:23 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 1f03adb183d03da59fb7c35db7c08acd0866767b
+Message-ID: <200901221520.n0MFKN5h025575@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  1f03adb183d03da59fb7c35db7c08acd0866767b (commit)
+       via  64aff79e91aa53bfe98cffef2702d445a52420a5 (commit)
+      from  ab4ca070c0befd9695d3f0c92d8716ff1c9111bf (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 1f03adb183d03da59fb7c35db7c08acd0866767b
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 15:20:18 2009 +0000
+
+    Cosmetic.
+
+commit 64aff79e91aa53bfe98cffef2702d445a52420a5
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 15:18:42 2009 +0000
+
+    Cosmetic.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/list.c            |   18 +++++++++++-------
+ src/secuutus-config.c |   10 +++++-----
+ 2 files changed, 16 insertions(+), 12 deletions(-)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 18:52:52 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 18:52:52 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	created. 8aa3da40170faca0a0619d12edd3e222614a81b0
+Message-ID: <200901221752.n0MHqqhV030376@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been created
+        at  8aa3da40170faca0a0619d12edd3e222614a81b0 (commit)
+
+- Log -----------------------------------------------------------------
+commit 8aa3da40170faca0a0619d12edd3e222614a81b0
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 16:39:07 2009 +0000
+
+    Initial commit.
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 18:56:26 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 18:56:26 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	created. 8aa3da40170faca0a0619d12edd3e222614a81b0
+Message-ID: <200901221756.n0MHuQfH002522@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been created
+        at  8aa3da40170faca0a0619d12edd3e222614a81b0 (commit)
+
+- Log -----------------------------------------------------------------
+commit 8aa3da40170faca0a0619d12edd3e222614a81b0
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 16:39:07 2009 +0000
+
+    Initial commit.
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 18:58:48 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 18:58:48 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	created. b3921b821b6653100061805495fe55c177833171
+Message-ID: <200901221758.n0MHwmTU004357@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been created
+        at  b3921b821b6653100061805495fe55c177833171 (commit)
+
+- Log -----------------------------------------------------------------
+commit b3921b821b6653100061805495fe55c177833171
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 17:58:31 2009 +0000
+
+    Initial commit.
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 19:19:38 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 19:19:38 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 50e5908390458ab902b487fbf5ced775da28c15d
+Message-ID: <200901221819.n0MIJcil031045@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  50e5908390458ab902b487fbf5ced775da28c15d (commit)
+      from  b3921b821b6653100061805495fe55c177833171 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 50e5908390458ab902b487fbf5ced775da28c15d
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 18:18:53 2009 +0000
+
+    Import stub, with UI code that needs refactoring.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore            |   12 ++
+ COPYING               |  339 +++++++++++++++++++++++++++++++++++++++++++++++++
+ Makefile              |   98 ++++++++++++++
+ Makefile.top.in       |   93 ++++++++++++++
+ STATUS                |    3 +
+ bootstrap             |  100 +++++++++++++++
+ configure.ac          |  118 +++++++++++++++++
+ default.conf          |   20 +++
+ install-sh            |  323 ++++++++++++++++++++++++++++++++++++++++++++++
+ mkdeps                |   11 ++
+ src/.gitignore        |    4 +
+ src/Makefile          |   80 ++++++++++++
+ src/error-reporting.c |   96 ++++++++++++++
+ src/error-reporting.h |   75 +++++++++++
+ src/main.c            |  302 +++++++++++++++++++++++++++++++++++++++++++
+ src/mm.c              |   86 +++++++++++++
+ src/mm.h              |   48 +++++++
+ src/s-config.c        |  179 ++++++++++++++++++++++++++
+ src/s-config.h        |   86 +++++++++++++
+ src/s-list.c          |  268 ++++++++++++++++++++++++++++++++++++++
+ src/s-list.h          |   87 +++++++++++++
+ src/s-ui.c            |  316 +++++++++++++++++++++++++++++++++++++++++++++
+ src/s-ui.h            |   89 +++++++++++++
+ 23 files changed, 2833 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 COPYING
+ create mode 100644 Makefile
+ create mode 100644 Makefile.top.in
+ create mode 100644 STATUS
+ create mode 100755 bootstrap
+ create mode 100644 configure.ac
+ create mode 100644 default.conf
+ create mode 100755 install-sh
+ create mode 100755 mkdeps
+ create mode 100644 src/.gitignore
+ create mode 100644 src/Makefile
+ create mode 100644 src/error-reporting.c
+ create mode 100644 src/error-reporting.h
+ create mode 100644 src/main.c
+ create mode 100644 src/mm.c
+ create mode 100644 src/mm.h
+ create mode 100644 src/s-config.c
+ create mode 100644 src/s-config.h
+ create mode 100644 src/s-list.c
+ create mode 100644 src/s-list.h
+ create mode 100644 src/s-ui.c
+ create mode 100644 src/s-ui.h
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 19:33:34 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 19:33:34 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 621ed6b9c51c926fcea3920eebd5bbd83bf6af60
+Message-ID: <200901221833.n0MIXYMB019778@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  621ed6b9c51c926fcea3920eebd5bbd83bf6af60 (commit)
+       via  534196433fd22f147c65a1cd3333b9f232a75e4f (commit)
+      from  50e5908390458ab902b487fbf5ced775da28c15d (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 621ed6b9c51c926fcea3920eebd5bbd83bf6af60
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 18:31:51 2009 +0000
+
+    Cosmetic.
+
+commit 534196433fd22f147c65a1cd3333b9f232a75e4f
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 18:25:56 2009 +0000
+
+    Update vim modelines.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ Makefile        |    4 +++-
+ Makefile.top.in |    2 +-
+ bootstrap       |    6 +++---
+ configure.ac    |    2 +-
+ mkdeps          |    4 +++-
+ src/Makefile    |    2 +-
+ src/s-config.h  |   10 +++++-----
+ src/s-list.h    |    4 ++--
+ src/s-ui.h      |   10 +++++-----
+ 9 files changed, 24 insertions(+), 20 deletions(-)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Thu Jan 22 20:35:44 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Thu, 22 Jan 2009 20:35:44 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	created. b3a568c9f33015670675bca24263652368709a49
+Message-ID: <200901221935.n0MJZiNv002372@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been created
+        at  b3a568c9f33015670675bca24263652368709a49 (commit)
+
+- Log -----------------------------------------------------------------
+commit b3a568c9f33015670675bca24263652368709a49
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 19:34:18 2009 +0000
+
+    Initial commit.
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Fri Jan 23 00:50:40 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Fri, 23 Jan 2009 00:50:40 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. ec43cadb52fcf326471b7b6e5f245ec8d4775c0e
+Message-ID: <200901222350.n0MNoeX8011231@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  ec43cadb52fcf326471b7b6e5f245ec8d4775c0e (commit)
+      from  b3a568c9f33015670675bca24263652368709a49 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit ec43cadb52fcf326471b7b6e5f245ec8d4775c0e
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 23:50:20 2009 +0000
+
+    Import stub.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore            |   12 ++
+ COPYING               |  339 ++++++++++++++++++++++++++++++++++++++++
+ Makefile              |  100 ++++++++++++
+ Makefile.top.in       |   93 +++++++++++
+ STATUS                |    3 +
+ bootstrap             |  100 ++++++++++++
+ configure.ac          |  118 ++++++++++++++
+ default.conf          |   20 +++
+ install-sh            |  323 ++++++++++++++++++++++++++++++++++++++
+ mkdeps                |   13 ++
+ src/.gitignore        |    4 +
+ src/Makefile          |   80 ++++++++++
+ src/conf.c            |  179 +++++++++++++++++++++
+ src/conf.h            |   86 +++++++++++
+ src/error-reporting.c |   96 ++++++++++++
+ src/error-reporting.h |   75 +++++++++
+ src/list.c            |  268 ++++++++++++++++++++++++++++++++
+ src/list.h            |   87 +++++++++++
+ src/main.c            |  304 ++++++++++++++++++++++++++++++++++++
+ src/mm.c              |   86 +++++++++++
+ src/mm.h              |   48 ++++++
+ src/ui.c              |  409 +++++++++++++++++++++++++++++++++++++++++++++++++
+ src/ui.h              |  123 +++++++++++++++
+ 23 files changed, 2966 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 COPYING
+ create mode 100644 Makefile
+ create mode 100644 Makefile.top.in
+ create mode 100644 STATUS
+ create mode 100755 bootstrap
+ create mode 100644 configure.ac
+ create mode 100644 default.conf
+ create mode 100755 install-sh
+ create mode 100755 mkdeps
+ create mode 100644 src/.gitignore
+ create mode 100644 src/Makefile
+ create mode 100644 src/conf.c
+ create mode 100644 src/conf.h
+ create mode 100644 src/error-reporting.c
+ create mode 100644 src/error-reporting.h
+ create mode 100644 src/list.c
+ create mode 100644 src/list.h
+ create mode 100644 src/main.c
+ create mode 100644 src/mm.c
+ create mode 100644 src/mm.h
+ create mode 100644 src/ui.c
+ create mode 100644 src/ui.h
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
+From jfvd at users.berlios.de  Fri Jan 23 00:53:27 2009
+From: jfvd at users.berlios.de (jfvd at users.berlios.de)
+Date: Fri, 23 Jan 2009 00:53:27 +0100
+Subject: [Secuutus-commits] [Git]Project secuutus at BerliOS branch, master,
+	updated. 24f1317013f90b20cdcfbc5ee3f954daf4da9cc7
+Message-ID: <200901222353.n0MNrR4w014505@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "Project secuutus at BerliOS".
+
+The branch, master has been updated
+       via  24f1317013f90b20cdcfbc5ee3f954daf4da9cc7 (commit)
+      from  ec43cadb52fcf326471b7b6e5f245ec8d4775c0e (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 24f1317013f90b20cdcfbc5ee3f954daf4da9cc7
+Author: Jon-Francis Bhreitheamhnaigh <j.f.vd at adamo-recordings.co.uk>
+Date:   Thu Jan 22 23:53:02 2009 +0000
+
+    Disable interrupt keys (INTR, QUIT).
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ui.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+
+hooks/post-receive
+-- 
+Project secuutus at BerliOS
+
+
